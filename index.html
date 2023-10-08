@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mark Sheet</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+      
+
+var a = prompt("enter your total Marks ");
+var b = prompt("Marks obtained : ");
+document.write("Total Marks : " +   a);
+document.write("<br>");
+document.write("Marks obtained : " +   b);
+document.write("<br>");
+var percentage =(b / a) * 100;
+document.write("percentage : " + percentage + "%" );
+document.write("<br>");
+
+if(percentage>=89)
+        {
+            document.write("Grade : A");
+        }
+        else if(percentage>=70 && percentage<89)
+        {
+            document.write("Grade : B");
+        } 
+        else if(percentage>=50 && percentage<70)
+        {
+            document.write("Grade : C");
+        }
+        else
+        {
+            document.write("Grade : D");
+        }
+        document.write("<br>");
+        if(percentage>=89)
+        {
+            document.write("Result : Excellent");
+        }
+        else if(percentage>=70 && percentage<89)
+        {
+            document.write("Result :Good");
+        } 
+        else if(percentage>=50 && percentage<70)
+        {
+            document.write("Above Average");
+        }
+        else
+        {
+            document.write("You Need to improve ");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
